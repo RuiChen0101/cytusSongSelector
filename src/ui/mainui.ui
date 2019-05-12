@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>controlPenal</class>
+ <widget class="QWidget" name="controlPenal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>415</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>控制台</string>
+  </property>
+  <widget class="QPushButton" name="loadRound8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>42</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8強</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loadRoundFinal">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>冠亞</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loadRound4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>4強</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="result">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>360</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;test&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="songList">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>0</y>
+     <width>256</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>song</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="startPick">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>startPick</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopMusic">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>stopMusic</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearTxt">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>clearTxt</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
