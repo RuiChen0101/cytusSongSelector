@@ -12,4 +12,4 @@ exe: ttesScoreBoard.py src/ui/mainwindow.py src/ui/songScreen.py
 clean:
 	rm -rf dist build __pycache__
 stat:
-	wc src/*
+	wc src/*.py *.py src/ui/*.py
