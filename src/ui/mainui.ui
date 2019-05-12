@@ -62,7 +62,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;test&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QTableWidget" name="songList">
@@ -70,10 +70,13 @@
     <rect>
      <x>140</x>
      <y>0</y>
-     <width>256</width>
+     <width>250</width>
      <height>361</height>
     </rect>
    </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>250</number>
+   </attribute>
    <column>
     <property name="text">
      <string>song</string>
@@ -93,7 +96,7 @@
     <string>startPick</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="stopMusic">
+  <widget class="QPushButton" name="removeFromList">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -103,7 +106,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>stopMusic</string>
+    <string>removeFromList</string>
    </property>
   </widget>
   <widget class="QPushButton" name="clearTxt">
