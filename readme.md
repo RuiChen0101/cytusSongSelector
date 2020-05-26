@@ -1,0 +1,1 @@
+**Copyright of all music belongs to Rayark.Inc**
